@@ -1,0 +1,56 @@
+body{
+    position: relative;
+    background: linear-gradient(orange, red);
+    height: 100vh;
+}
+html{
+    overflow: hidden;
+}
+
+img {
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 50px;
+    width: 50vh;
+    height: 50vh;
+    margin-bottom: -30px;
+}
+.wanted{
+    position: relative;
+    width: 100vw;
+}
+.wanted h1 {
+    font-size: 600%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    
+    transform: translate(-50%,25%);
+    color: rgb(24, 63, 114);
+    /* margin-bottom: -10px; */
+    text-shadow: 2px 2px 2px white;
+}
+
+.avt h3 {
+    font-size: 600%;
+    position: fixed;
+    left: 40%;
+    top: 32%;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+.fa-dollar-sign{
+    font-size: 100%;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    /* body {
+      background: lightblue;
+    } */
+
+    .avt{
+        width: 50%;
+    }
+  }
