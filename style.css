@@ -32,6 +32,15 @@ img {
     /* margin-bottom: -10px; */
     text-shadow: 2px 2px 2px white;
 }
+.avt h2{
+    font-size:200%;
+    position: fixed;
+    left: 45%;
+    top: 10%;
+    color: red;
+    text-shadow: 4px 1px 4px white;
+    transform: rotate(35deg);
+}
 
 .avt h3 {
     font-size: 600%;
@@ -51,6 +60,6 @@ img {
     } */
 
     .avt{
-        width: 50%;
+        width: 30%;
     }
   }
